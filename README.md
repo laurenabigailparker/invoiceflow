@@ -1,16 +1,77 @@
-# React + Vite
+# InvoiceFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern full-stack invoicing SaaS dashboard built with React, Vite, MongoDB, Express, and JWT authentication.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- JWT authentication
+- MongoDB invoice storage
+- Create, edit, and delete invoices
+- Revenue analytics dashboard
+- Responsive mobile navigation
+- Client management UI
+- Invoice filtering and search
+- SaaS pricing modal
+- Modern luxury dashboard design
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
+- React
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Router
+- Recharts
 
-## Expanding the ESLint configuration
+### Backend
+- Node.js
+- Express
+- MongoDB
+- Mongoose
+- JWT Authentication
+- bcryptjs
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Screenshots
+
+_Add screenshots here later._
+
+## Local Setup
+
+### Frontend
+
+```bash
+npm install
+npm run dev
+```
+
+### Backend
+
+```bash
+cd server
+npm install
+npm run dev
+```
+
+## Environment Variables
+
+Create a `.env` file inside `/server`:
+
+```env
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+PORT=5000
+```
+
+## Future Improvements
+
+- Stripe payments
+- PDF invoice export
+- Team collaboration
+- User-specific invoice storage
+- Email notifications
+- Subscription billing
+
+## Author
+
+Lauren Parker
