@@ -724,7 +724,7 @@ if (!token || !user) {
           </div>
           </aside>
 
-          <div className="fixed bottom-0 left-0 right-0 z-50 flex items-center justify-around border-t border-white/10 bg-[#071A2E]/95 px-3 py-3 backdrop-blur-xl lg:hidden"z-50 flex w-[92%] -translate-x-1/2 items-center justify-between rounded-3xl border border-white/10 bg-[#071A2E]/90 p-2 shadow-2xl backdrop-blur-xl lg:hidden">
+          <div className="fixed bottom-0 left-0 right-0 z-50 flex items-center justify-around border-t border-white/10 bg-[#071A2E]/95 px-3 py-3 backdrop-blur-xl lg:hidden">
   {navItems.map((item) => {
     const Icon = item.icon
 
