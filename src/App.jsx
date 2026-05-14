@@ -609,6 +609,30 @@ if (!token || !user) {
             {authMode === "login" ? "Login" : "Create Account"}
           </button>
 
+  
+
+<button
+  onClick={() => {
+    setAuthForm({
+      name: "Demo User",
+      email: "demo@invoiceflow.com",
+      password: "password123",
+    })
+
+    setAuthMode("login")
+  }}
+  className="w-full rounded-2xl border border-white/10 bg-white/5 py-4 font-bold text-slate-200 transition hover:bg-white/10"
+>
+  Use Demo Login
+</button>
+
+<button
+  onClick={() =>
+    setAuthMode(authMode === "login" ? "register" : "login")
+  }
+  className="w-full text-sm text-slate-400 hover:text-white"
+></button>
+
           <button
             onClick={() =>
               setAuthMode(authMode === "login" ? "register" : "login")
